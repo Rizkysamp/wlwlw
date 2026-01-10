@@ -12,7 +12,7 @@ export default async function handler(req, res) {
     const cleanUrl = panelUrl.replace(/\/$/, "");
     
     // Gunakan path relatif tanpa garis miring di depan
-    const filePath = `scriptfiles/whitelist/${name}.ini`;
+    const filePath = `scriptfiles/Whitelist/${name}.ini`;
 
     try {
         const response = await fetch(`${cleanUrl}/api/client/servers/${serverId}/files/write?file=${encodeURIComponent(filePath)}`, {
