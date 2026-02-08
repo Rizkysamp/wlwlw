@@ -6,7 +6,7 @@ export default async function handler(req, res) {
 
     const panelUrl = "https://mizonetwork.galaxyhost.biz.id";
     const serverId = "ff861198";
-    const apiKey = "ptlc_2LlVbQGKnQNGWcBpJH4je8MCdp8JOuQNNphQgBRFKpi"; // PASTIKAN COPY ULANG DARI PANEL
+    const apiKey = "ptlc_E1ZqAGQijcO5TUHs0WtZwk7KIqJ2rf5TYHFQMrGQ77w"; // PASTIKAN COPY ULANG DARI PANEL
 
     // Bersihkan URL panel (hapus / di akhir jika ada)
     const cleanUrl = panelUrl.replace(/\/$/, "");
