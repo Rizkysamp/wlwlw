@@ -4,7 +4,7 @@ export default async function handler(req, res) {
     const { name } = req.body;
     if (!name) return res.status(400).json({ success: false, error: 'Nama tidak boleh kosong' });
 
-    const panelUrl = "https://games.centnodes.com";
+    const panelUrl = "sftp://ams-game-01.centnodes.net";
     const serverId = "29d2c7bb";
     const apiKey = "ptlc_ji9Q0ONNtMKoCTYeGbCUOQeyaOw8BmNy9T7Yp9jzeab"; // PASTIKAN COPY ULANG DARI PANEL
 
